@@ -7,8 +7,8 @@ export const strongMultiPages = [
   { href: "/strong-contact", text: "Contact" },
 ];
 export const strongMultiPagesDark = [
-  { href: "/strong-multi-page-dark", text: "Home" },
-  { href: "/strong-about-dark", text: "About", className: "active" },
+  { href: "/", text: "Home" },
+  { href: "/gradient-about-dark", text: "About", className: "active" },
   { href: "/strong-services-dark", text: "Services" },
   { href: "/strong-portfolio-dark", text: "Portfolio" },
   { href: "/strong-blog-dark", text: "Blog" },
@@ -57,7 +57,7 @@ export const modernMultipage = [
   { id: 6, href: "/modern-contact", text: "Contact" },
 ];
 export const modernMultipageDark = [
-  { id: 1, href: "/modern-multi-page-dark", text: "Home" },
+  { id: 1, href: "/", text: "Home" },
   { id: 2, href: "/modern-about-dark", text: "About", className: "active" },
   { id: 3, href: "/modern-services-dark", text: "Services" },
   { id: 4, href: "/modern-portfolio-dark", text: "Portfolio" },
@@ -83,12 +83,10 @@ export const gradientMultipage = [
   { href: "/gradient-contact", text: "Contact", active: false },
 ];
 export const gradientMultipageDark = [
-  { href: "/gradient-multi-page-dark", text: "Home", active: true },
-  { href: "/gradient-about-dark", text: "About", active: false },
-  { href: "/gradient-services-dark", text: "Services", active: false },
-  { href: "/gradient-portfolio-dark", text: "Portfolio", active: false },
-  { href: "/gradient-blog-dark", text: "Blog", active: false },
-  { href: "/gradient-contact-dark", text: "Contact", active: false },
+  { href: "/", text: "Home", active: true },
+  { href: "/services", text: "Services", active: false },
+  { href: "/portfolio", text: "Portfolio", active: false },
+  { href: "/contact", text: "Contact", active: false },
 ];
 
 export const gradientOnePage = [
