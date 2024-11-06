@@ -39,7 +39,7 @@ export default function Hero3() {
           muted
           loop
         >
-          <source src="/assets/videos/video-7.mp4" type="video/mp4" />
+          <source src="/assets/videos/intro.mp4" type="video/mp4" />
         </video>
         <div className="bg-video-overlay bg-dark-alpha-70" />
       </div>

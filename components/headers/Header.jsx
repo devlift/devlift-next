@@ -21,15 +21,15 @@ export default function Header() {
       <div className="nav-logo-wrap position-static pe-lg-4 me-lg-5 local-scroll">
         <a href="#top" className="logo">
           <Image
-            src="/assets/images/demo-gradient/logo-dark.png"
-            alt="Your Company Logo"
+            src="/assets/images/logo-dark.svg"
+            alt="Devlift Logo"
             width={95}
             height={40}
             className="light-mode-logo"
           />
           <Image
-            src="/assets/images/demo-gradient/logo-white.png"
-            alt="Your Company Logo"
+            src="/assets/images/logo-white.svg"
+            alt="Devlift Logo"
             width={95}
             height={40}
             className="dark-mode-logo"

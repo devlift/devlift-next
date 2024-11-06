@@ -191,15 +191,15 @@ Primary use: Multipurpose Template
   --color-gray-light-6: #bbb;
   --color-dark-mode-gray-1: rgba(255, 255, 255, 0.7);
   --color-dark-mode-gray-2: rgba(255, 255, 255, 0.1275);
-  --color-primary-1: #4567ed;
-  --color-primary-1-a: #375ae3;
+  --color-primary-1: #70cccc;
+  --color-primary-1-a: #70cccc;
   --color-primary-light-1: #e3effe;
   --color-primary-light-1-a: #bcd1f1;
-  --color-primary-2: #7752e7;
+  --color-primary-2: #70cccc;
   --color-primary-light-2: #e7defe;
-  --color-primary-3: #b947d9;
+  --color-primary-3: #70cccc;
   --color-primary-light-3: #f7defe;
-  --color-primary-4: #e748b1;
+  --color-primary-4: #336464;
   --color-primary-light-4: #ffe1f5;
   --color-secondary-1: #fbe3a1;
   --gradient-primary-1: linear-gradient(
