@@ -14,9 +14,9 @@ const ParallaxContainer = dynamic(
 import { allPortfolios } from "@/data/portfolio";
 export const metadata = {
   title:
-    "Strong Portfolio Single Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Strong Portfolio Single Dark || Devlift &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Devlift &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function StrongPortfolioSinglePageDark({ params }) {
   const portfolioItem =

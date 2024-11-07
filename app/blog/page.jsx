@@ -21,9 +21,9 @@ const dark = true;
 const onePage = false;
 export const metadata = {
   title:
-    "Home 10 Blog Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Home 10 Blog Dark || Devlift &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Devlift &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function StrongBlogPageDark() {
   return (

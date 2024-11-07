@@ -16,7 +16,7 @@ export default function Hero2() {
               <span className="wow charsAnimIn" data-splitting="chars">
                 Elevate
                 <span className="font-alt"> the digital</span> experience with
-                Resonance <span className="font-alt">studio</span>.
+                Devlift <span className="font-alt">studio</span>.
               </span>
             </h1>
             <div className="local-scroll wow fadeInUp" data-wow-delay="0.65s">

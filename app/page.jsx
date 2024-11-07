@@ -5,9 +5,9 @@ import Home from "@/components/homes/home";
 
 export const metadata = {
   title:
-    "Home 10 BG Video MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Home 10 BG Video MultiPage Dark || Devlift &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Devlift &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function Home10BGVideoMultiPageDark() {
   return (

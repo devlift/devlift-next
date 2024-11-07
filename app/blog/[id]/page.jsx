@@ -17,9 +17,9 @@ const ParallaxContainer = dynamic(
 
 export const metadata = {
   title:
-    "Home 10 Blog Single Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Home 10 Blog Single Dark || Devlift &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Devlift &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function StrongBlogSinglePageDark({ params }) {
   const blog = allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];

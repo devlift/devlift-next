@@ -17,9 +17,9 @@ const dark = true;
 const onePage = false;
 export const metadata = {
   title:
-    "Home 10 About Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Home 10 About Dark || Devlift &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Devlift &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function StrongAboutPageDark() {
   return (
@@ -94,7 +94,7 @@ export default function StrongAboutPageDark() {
                     <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
                       <div className="wow linesAnimIn" data-splitting="lines">
                         <p className="lead mt-0 mb-40">
-                          Resonance is a full-service creative studio creating
+                          Devlift is a full-service creative studio creating
                           beautiful digital experiences and products. We are a
                           company specializing in design and engineering.
                         </p>

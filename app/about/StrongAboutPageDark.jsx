@@ -80,7 +80,7 @@ export default function StrongAboutPageDark() {
                     <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
                       <div className="wow linesAnimIn" data-splitting="lines">
                         <p className="lead mt-0 mb-40">
-                          Resonance is a full-service creative studio creating
+                          Devlift is a full-service creative studio creating
                           beautiful digital experiences and products. We are a
                           company specializing in design and engineering.
                         </p>
