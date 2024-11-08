@@ -36,7 +36,7 @@ export default function Header5({ links }) {
           <li className="ms-3 me-2" />
           <li>
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href="https://themeforest.net/user/Devlift Media/portfolio"
               className="opacity-1 no-hover"
               target="_blank"
             >

@@ -40,8 +40,8 @@ export default function Footer5() {
       <div className="footer-text">
         {/* Copyright */}
         <div>
-          <a href="https://themeforest.net/user/ib-themes/portfolio">
-            © IB-Themes {new Date().getFullYear()}
+          <a href="https://themeforest.net/user/Devlift Media/portfolio">
+            © Devlift Media {new Date().getFullYear()}
           </a>
           .
         </div>

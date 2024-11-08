@@ -23,7 +23,7 @@ export default function Blog() {
         <div className="col-lg-2 d-flex align-items-end">
           <div className="local-scroll text-center text-lg-end w-100">
             <Link
-              href={`/gradient-blog`}
+              href={`/blog`}
               className="link-hover-anim link-gradient"
               data-link-animate="y"
             >

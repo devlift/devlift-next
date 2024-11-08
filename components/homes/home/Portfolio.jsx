@@ -1,5 +1,5 @@
 "use client";
-import { portfolios7 } from "@/data/portfolio";
+
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -12,6 +12,37 @@ const filters = [
 ];
 export default function Portfolio() {
   const [currentCategory, setCurrentCategory] = useState("all");
+
+  const portfolios7 = [
+    {
+      id: 42,
+      categories: ["branding", "development"],
+      imgSrc: "/assets/images/projects/toyota/thumb.png",
+      title: "Toyota Branding Campaign",
+      description:
+        "A comprehensive branding campaign for Toyota, enhancing digital presence and customer engagement.",
+      dataWowDelay: "1s",
+    },
+    {
+      id: 43,
+      categories: ["design", "branding"],
+      imgSrc: "/assets/images/projects/rbc/thumb.png",
+      title: "RBC Digital Transformation",
+      description:
+        "Digital branding and user experience overhaul for RBC’s financial services.",
+      dataWowDelay: "1s",
+    },
+    {
+      id: 44,
+      categories: ["development", "design"],
+      imgSrc: "/assets/images/projects/excel/thumb.png",
+      title: "Excel Dashboard",
+      description:
+        "A data visualization platform for Excel, focusing on interactive and user-friendly design.",
+      dataWowDelay: "1s",
+    },
+  ];
+
   const [filtered, setFiltered] = useState(portfolios7);
   useEffect(() => {
     if (currentCategory == "all") {
@@ -24,9 +55,10 @@ export default function Portfolio() {
       );
     }
   }, [currentCategory]);
+
   return (
     <>
-      <div className="container position-relative">
+      {/* <div className="container position-relative">
         <div className="text-center mb-60 mb-sm-40">
           <div className="works-filter works-filter-gradient">
             {filters.map((elm, i) => (
@@ -42,7 +74,7 @@ export default function Portfolio() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="full-wrapper ps-lg-3 pe-lg-3">
         <div className="ps-lg-4 pe-lg-4">
           {/* Works Grid */}

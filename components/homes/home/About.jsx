@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export default function About() {
   return (
     <>
@@ -8,11 +9,11 @@ export default function About() {
           <div className="col-lg-8 offset-lg-2 text-center">
             <div className="wow fadeInUp">
               <h2 className="section-caption-gradient mb-20 mb-xs-10">
-                About Studio
+                About Devlift Media
               </h2>
               <div className="section-line-gradient mx-auto mb-20" />
               <h3 className="section-title mb-40 mb-sm-30">
-                The best way to create stanning layouts for your website.
+                Innovating with AI to drive transformative solutions.
               </h3>
             </div>
             <div className="row text-start text-gray mb-80 mb-sm-60">
@@ -20,35 +21,26 @@ export default function About() {
                 className="col-md-6 mb-sm-20 wow linesAnimInLong"
                 data-splitting="lines"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                maximus ligula semper metus pellentesque mattis. Maecenas
-                volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
-                consectetur fermentum nibh volutpat.
+                At Devlift Media, we specialize in harnessing the power of AI to
+                help businesses streamline and optimize their workflows. We
+                believe in leveraging cutting-edge technology to unlock the full
+                potential of our clients’ operations.
               </div>
               <div
                 className="col-md-6 wow linesAnimInLong"
                 data-splitting="lines"
               >
-                Etiam sit amet fringilla lacus. Pellentesque suscipit ante
-                ullamcorper pulvinar neque porttitor integer lectus. Praesent
-                sed nisi eleifend, fermentum orcilorem amet, iaculis libero
-                lorem. Donec vel ultricies purus lorem ipsum sit amet.
+                Our team of experts combines strategic insights with advanced AI
+                tools to develop solutions that elevate productivity and drive
+                growth. Let us partner with you on your journey to create
+                efficient, innovative, and impactful digital experiences.
               </div>
             </div>
           </div>
         </div>
       </div>
       {/* Images Composition */}
-      <div className="possition-relaive">
-        {/* Decorative Line */}
-        <div className="bg-line-1 z-index-1">
-          <Image
-            src="/assets/images/demo-gradient/decoration-2.png"
-            width={1920}
-            height={616}
-            alt=""
-          />
-        </div>
+      <div className="position-relative">
         {/* End Decorative Line */}
         <div className="container position-relative">
           <div className="row">
@@ -58,8 +50,8 @@ export default function About() {
                   <div className="composition-7-border" />
                   <div className="composition-7-inner">
                     <Image
-                      src="/assets/images/demo-gradient/section-image-1.jpg"
-                      alt="Image Description"
+                      src="/assets/images/about-1.jpg"
+                      alt="Team at Work"
                       width={238}
                       height={296}
                     />
@@ -69,21 +61,10 @@ export default function About() {
                   <div className="composition-7-border" />
                   <div className="composition-7-inner">
                     <Image
-                      src="/assets/images/demo-gradient/section-image-2.jpg"
-                      alt="Image Description"
+                      src="/assets/images/about-2.jpg"
+                      alt="AI Solutions in Action"
                       width={398}
                       height={482}
-                    />
-                  </div>
-                </div>
-                <div className="composition-7-image-3">
-                  <div className="composition-7-border" />
-                  <div className="composition-7-inner">
-                    <Image
-                      src="/assets/images/demo-gradient/section-image-3.jpg"
-                      alt="Image Description"
-                      width={460}
-                      height={308}
                     />
                   </div>
                 </div>
@@ -91,10 +72,21 @@ export default function About() {
                   <div className="composition-7-border" />
                   <div className="composition-7-inner">
                     <Image
-                      src="/assets/images/demo-gradient/section-image-4.jpg"
-                      alt="Image Description"
+                      src="/assets/images/about-4.jpg"
+                      alt="Creative Design Process"
                       width={368}
                       height={456}
+                    />
+                  </div>
+                </div>
+                <div className="composition-7-image-3">
+                  <div className="composition-7-border" />
+                  <div className="composition-7-inner">
+                    <Image
+                      src="/assets/images/about-3.jpeg"
+                      alt="Innovative Technology"
+                      width={460}
+                      height={308}
                     />
                   </div>
                 </div>

@@ -75,7 +75,7 @@ export default function Footer7() {
         {/* Footer Text */}
         <div className="row text-gray">
           <div className="col-md-4 col-lg-3">
-            <b>© IB-Themes {new Date().getFullYear()}.</b>
+            <b>© Devlift Media {new Date().getFullYear()}.</b>
           </div>
           <div className="col-md-7 offset-md-1 offset-lg-2 clearfix">
             <b>Based in London, United Kingdom.</b>

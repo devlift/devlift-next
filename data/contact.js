@@ -2,7 +2,7 @@ export const contactItems = [
   {
     iconClass: "mi-location",
     title: "Address",
-    text: "Envato Pty Ltd, PO Box 16122 Collins Street, West Victoria.",
+    text: "240 Waterloo St Suite 101, London, ON N6B 2N4",
     link: {
       url: "https://goo.gl/maps/7Vw1PBhxx5BaXStr8",
       text: "See Map",
@@ -13,16 +13,16 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email",
-    text: "ibthemes21@gmail.com",
+    text: "info@devlift.com",
     link: {
-      url: "mailto:ibthemes21@gmail.com",
+      url: "mailto:info@devlift.com",
       text: "Say Hello",
     },
   },
   {
     iconClass: "mi-mobile",
     title: "Phone",
-    text: "+1 837 652 8800",
+    text: "+1 833 DEVLIFT (833-338-5438)",
     link: {
       url: "tel:+61383767284",
       text: "Call now",

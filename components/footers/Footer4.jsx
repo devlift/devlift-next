@@ -69,7 +69,7 @@ export default function Footer4() {
       {/* Footer Text */}
       <div className="row">
         <div className="col-md-6 mb-sm-40">
-          Made with love for great people. <br />© IB-Themes{" "}
+          Made with love for great people. <br />© Devlift Media{" "}
           {new Date().getFullYear()}.
         </div>
         {/* Social Links */}

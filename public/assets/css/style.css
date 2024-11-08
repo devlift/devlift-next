@@ -2067,8 +2067,7 @@ a:not(.no-hover):hover .btn-animate-y-2 {
 }
 .btn-mod.btn-border-grad {
   border: 1px solid transparent;
-  background: linear-gradient(to right, white, white),
-    var(--gradient-primary-1-b);
+
   -webkit-background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
   color: var(--color-primary-1);

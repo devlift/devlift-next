@@ -26,10 +26,10 @@ export default function Hero3() {
       setIsMuted(true);
     }
   };
+
   return (
     <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
       {/* Background Video */}
-      {/* Please replace the video file in folder "video" with your own file */}
       <div className="bg-video-wrapper">
         <video
           ref={videoRef}
@@ -66,7 +66,7 @@ export default function Hero3() {
       <div className="home-content text-center">
         <h1 className="hs-title-7 mb-40">
           <span className="wow charsAnimIn-1" data-splitting="chars">
-            Devlift <span className="font-alt">Creative</span> Studio
+            <span className="font-alt">Creative</span> AI Solutions
           </span>
         </h1>
         <div className="row">
@@ -78,8 +78,9 @@ export default function Hero3() {
             <div className="row wow fadeInUpShort" data-wow-delay="1.35s">
               <div className="col-sm-6 col-md-7 text-center text-sm-start mb-xs-30">
                 <p className="mb-0">
-                  Devlift is an award-winning studio specializing in branding,
-                  design and engineering.
+                  Devlift Media is an AI development studio dedicated to helping
+                  companies optimize and transform their processes with
+                  innovative solutions.
                 </p>
               </div>
               <div className="col-sm-6 col-md-5 text-center text-sm-end local-scroll">
@@ -87,7 +88,7 @@ export default function Hero3() {
                   href="#about"
                   className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                 >
-                  <span>Discover Now</span>
+                  <span>Discover More</span>
                 </a>
               </div>
             </div>

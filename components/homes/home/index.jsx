@@ -1,10 +1,8 @@
 import React from "react";
 import About from "./About";
-import Achievement from "./Achievement";
 import Service from "./Service";
 import Image from "next/image";
 import Portfolio from "./Portfolio";
-
 import Steps from "./Steps";
 import Banner from "./Banner";
 import Blog from "./Blog";
@@ -19,7 +17,7 @@ export default function Home({ onePage = false, dark = false }) {
   return (
     <>
       <section
-        className={`page-section  scrollSpysection  bg-scroll ${
+        className={`page-section scrollSpysection bg-scroll ${
           dark
             ? "bg-dark-1 bg-gradient-gray-dark-2 light-content"
             : "bg-gradient-gray-light-2"
@@ -32,166 +30,47 @@ export default function Home({ onePage = false, dark = false }) {
         <div className="position-relative">
           {/* Decorative Circle */}
           <div className="decoration-18 d-none d-sm-block" />
-          {/* End Decorative Circle */}
-          {/* Decorative Circle */}
           <div className="decoration-19 d-none d-sm-block" />
-          {/* End Decorative Circle */}
           <div
             className={`page-section bg-dark-1 bg-dark-alpha-80 bg-scroll light-content round-large overflow-hidden`}
             style={{
-              backgroundImage:
-                "url(/assets/images/demo-gradient/section-bg-1.jpg)",
+              backgroundImage: "url(/assets/images/services.png)",
             }}
           >
             <div className="container position-relative">
               <div className="row">
                 <div className="col-lg-4 mb-md-60 mb-xs-50">
                   <h2 className="section-title mb-20 wow fadeInUp">
-                    Check recent achievements.
+                    Explore Our Capabilities
                   </h2>
                   <p
                     className="section-descr mb-40 wow fadeInUp"
                     data-wow-delay="0.1s"
                   >
-                    We provide the effective ideas that grow businesses of our
-                    clients.
+                    Discover how Devlift Media helps businesses unlock potential
+                    through AI-driven solutions and strategic process
+                    optimization.
                   </p>
                   <div
                     className="local-scroll wow fadeInUp"
                     data-wow-delay="0.2s"
                   >
                     {onePage ? (
-                      <>
-                        {" "}
-                        <a
-                          href="#services"
-                          className="btn btn-mod btn-border-w-light btn-medium btn-round"
-                          data-btn-animate="y"
-                        >
-                          <span className="btn-animate-y">
-                            <span className="btn-animate-y-1">
-                              View services
-                              <i
-                                className="mi-arrow-right size-24 align-center"
-                                aria-hidden="true"
-                              ></i>
-                            </span>
-                            <span
-                              className="btn-animate-y-2"
-                              aria-hidden="true"
-                            >
-                              View services
-                              <i
-                                className="mi-arrow-right size-24 align-center"
-                                aria-hidden="true"
-                              ></i>
-                            </span>
-                          </span>
-                        </a>
-                      </>
-                    ) : (
-                      <>
-                        {" "}
-                        <Link
-                          href={`/gradient-services${dark ? "-dark" : ""}`}
-                          className="btn btn-mod btn-border-w-light btn-medium btn-round"
-                          data-btn-animate="y"
-                        >
-                          <span className="btn-animate-y">
-                            <span className="btn-animate-y-1">
-                              View services
-                              <i
-                                className="mi-arrow-right size-24 align-center"
-                                aria-hidden="true"
-                              ></i>
-                            </span>
-                            <span
-                              className="btn-animate-y-2"
-                              aria-hidden="true"
-                            >
-                              View services
-                              <i
-                                className="mi-arrow-right size-24 align-center"
-                                aria-hidden="true"
-                              ></i>
-                            </span>
-                          </span>
-                        </Link>
-                      </>
-                    )}
-                  </div>
-                </div>
-                <Achievement />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className={`page-section scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="services"
-      >
-        <Service />
-      </section>
-      <section className={`full-wrapper ${dark ? "light-content" : ""}`}>
-        <div className="page-section bg-border-gradient pt-0 pb-0 scroll-nav-invisible z-index-1">
-          <div className="page-section container position-relative scroll-nav-invisible">
-            {/* Decoration Image */}
-            <div className="decoration-image-1">
-              <Image
-                src="/assets/images/demo-gradient/section-image-6.jpg"
-                alt="Image Description"
-                width={336}
-                height={406}
-              />
-            </div>
-            {/* End Decoration Image */}
-            {/* Decoration Image */}
-            <div className="decoration-image-2">
-              <Image
-                src="/assets/images/demo-gradient/section-image-7.jpg"
-                alt="Image Description"
-                width={350}
-                height={256}
-              />
-            </div>
-            {/* End Decoration Image */}
-            <div className="row text-center">
-              <div className="col-md-8 offset-md-2">
-                <div className="text-center mb-40 mb-sm-30">
-                  <Image
-                    src="/assets/images/demo-gradient/section-image-5.png"
-                    width={100}
-                    height={100}
-                    alt="Image Description"
-                  />
-                </div>
-                <p className="section-descr-medium mb-50 mb-sm-40">
-                  Looking for exclusive creative services? Contact us and get
-                  free online consultation for your brand or your client's
-                  brand.
-                </p>
-                <div className="local-scroll">
-                  {onePage ? (
-                    <>
-                      {" "}
                       <a
-                        href="#contact"
-                        className="btn btn-mod btn-medium btn-grad btn-round"
+                        href="#services"
+                        className="btn btn-mod btn-border-w-light btn-medium btn-round"
                         data-btn-animate="y"
                       >
                         <span className="btn-animate-y">
                           <span className="btn-animate-y-1">
-                            Contact us
+                            View services
                             <i
                               className="mi-arrow-right size-24 align-center"
                               aria-hidden="true"
                             ></i>
                           </span>
                           <span className="btn-animate-y-2" aria-hidden="true">
-                            Contact us
+                            View services
                             <i
                               className="mi-arrow-right size-24 align-center"
                               aria-hidden="true"
@@ -199,25 +78,22 @@ export default function Home({ onePage = false, dark = false }) {
                           </span>
                         </span>
                       </a>
-                    </>
-                  ) : (
-                    <>
-                      {" "}
+                    ) : (
                       <Link
-                        href={`/gradient-services${dark ? "-dark" : ""}`}
-                        className="btn btn-mod btn-medium btn-grad btn-round"
+                        href="services"
+                        className="btn btn-mod btn-border-w-light btn-medium btn-round"
                         data-btn-animate="y"
                       >
                         <span className="btn-animate-y">
                           <span className="btn-animate-y-1">
-                            See all services
+                            View services
                             <i
                               className="mi-arrow-right size-24 align-center"
                               aria-hidden="true"
                             ></i>
                           </span>
                           <span className="btn-animate-y-2" aria-hidden="true">
-                            See all services
+                            View services
                             <i
                               className="mi-arrow-right size-24 align-center"
                               aria-hidden="true"
@@ -225,16 +101,26 @@ export default function Home({ onePage = false, dark = false }) {
                           </span>
                         </span>
                       </Link>
-                    </>
-                  )}
+                    )}
+                  </div>
                 </div>
+                {/* Other Components */}
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* <section
+        className={`page-section scrollSpysection ${
+          dark ? "bg-dark-1 light-content" : ""
+        }`}
+        id="services"
+      >
+        <Service />
+      </section> */}
+
       <section
-        className={`page-section scrollSpysection  overflow-hidden  ${
+        className={`page-section scrollSpysection overflow-hidden ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
         id="portfolio"
@@ -250,29 +136,17 @@ export default function Home({ onePage = false, dark = false }) {
           </div>
           <div className="text-center">
             <h3 className="section-title-repeat mb-40 mb-sm-30">
-              <span className="section-title-repeat-left" aria-hidden="true">
-                Made with love
-              </span>
-              <span className="section-title-repeat-right" aria-hidden="true">
-                Made with love
-              </span>
-              <span className="wow charsAnimInLong-1" data-splitting="chars">
-                <AnimatedText text="Made with love" />
-              </span>
+              <AnimatedText text="Made with Innovation" />
             </h3>
           </div>
           <div className="row">
             <div className="col-lg-8 offset-lg-2 text-center">
               <p className="text-gray mb-70 mb-sm-50">
-                In auctor ex id urna faucibus porttitor. In feugiat maximus
-                nibh, id sodales mauris interdum at. Etiam eget lorem odio. Duis
-                scelerisque metus ac velit mattis, nec ultricies turpis posuere.
+                Explore how our AI-driven approach has helped clients solve
+                complex problems and optimize workflows.
               </p>
             </div>
           </div>
-          {/* Works Filter */}
-
-          {/* End Works Filter */}
         </div>
         <Portfolio />
       </section>
@@ -280,7 +154,7 @@ export default function Home({ onePage = false, dark = false }) {
         className={`small-section ${
           dark
             ? "bg-dark-1 bg-gradient-light-1 light-content"
-            : " bg-gradient-light-1"
+            : "bg-gradient-light-1"
         }`}
       >
         <div className="container position-relative">
@@ -288,75 +162,30 @@ export default function Home({ onePage = false, dark = false }) {
             <div className="col-lg-10 offset-lg-1">
               <div className="row">
                 <div className="col-md-8 text-center text-md-start mb-sm-20 d-md-flex">
-                  <div className="flex-shrink-0 me-md-4 pe-md-1 mb-sm-20">
-                    <Image
-                      src="/assets/images/demo-gradient/section-image-5.png"
-                      width="100"
-                      height="100"
-                      alt="Image Description"
-                    />
-                  </div>
-                  <div className="d-flex align-items-center pt-2 pt-md-0">
-                    <p className="section-descr-medium w-100 mb-0">
-                      Like our creative works? Contact us and get free online
-                      consultation for your brand.
-                    </p>
-                  </div>
+                  <p className="section-descr-medium w-100 mb-0">
+                    We’ve helped several large companies achieve their goals
+                    through innovative AI solutions and cutting-edge design.{" "}
+                    <br />
+                    View our portfolio to see how we can elevate your business.
+                  </p>
                 </div>
-
                 <div className="col-md-4 text-center text-md-end pt-20 local-scroll">
                   {onePage ? (
-                    <>
-                      {" "}
-                      <a
-                        href="#contact"
-                        className="btn btn-mod btn-medium btn-grad btn-round"
-                        data-btn-animate="y"
-                      >
-                        <span className="btn-animate-y">
-                          <span className="btn-animate-y-1">
-                            Contact us
-                            <i
-                              className="mi-arrow-right size-24 align-center"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                          <span className="btn-animate-y-2" aria-hidden="true">
-                            Contact us
-                            <i
-                              className="mi-arrow-right size-24 align-center"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                        </span>
-                      </a>
-                    </>
+                    <a
+                      href="#contact"
+                      className="btn btn-mod btn-medium btn-grad btn-round"
+                      data-btn-animate="y"
+                    >
+                      Contact us
+                    </a>
                   ) : (
-                    <>
-                      {" "}
-                      <Link
-                        href={`/gradient-services${dark ? "-dark" : ""}`}
-                        className="btn btn-mod btn-medium btn-grad btn-round"
-                        data-btn-animate="y"
-                      >
-                        <span className="btn-animate-y">
-                          <span className="btn-animate-y-1">
-                            See all services
-                            <i
-                              className="mi-arrow-right size-24 align-center"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                          <span className="btn-animate-y-2" aria-hidden="true">
-                            See all services
-                            <i
-                              className="mi-arrow-right size-24 align-center"
-                              aria-hidden="true"
-                            ></i>
-                          </span>
-                        </span>
-                      </Link>
-                    </>
+                    <Link
+                      href="portfolio"
+                      className="btn btn-mod btn-medium btn-grad btn-round"
+                      data-btn-animate="y"
+                    >
+                      View our portfolio
+                    </Link>
                   )}
                 </div>
               </div>
@@ -365,7 +194,7 @@ export default function Home({ onePage = false, dark = false }) {
         </div>
       </section>
       <section
-        className={`page-section   ${dark ? "bg-dark-1 light-content" : ""}`}
+        className={`page-section ${dark ? "bg-dark-1 light-content" : ""}`}
       >
         <Steps />
       </section>
@@ -373,35 +202,34 @@ export default function Home({ onePage = false, dark = false }) {
         <div
           className="page-section bg-dark-1 bg-dark-alpha-80 bg-scroll light-content round-large overflow-hidden"
           style={{
-            backgroundImage:
-              "url(/assets/images/demo-gradient/section-bg-2.jpg)",
+            backgroundImage: "url(/assets/images/about-2.jpg)",
           }}
         >
           <Banner />
         </div>
       </section>
-      <section
-        className={`page-section  scrollSpysection   ${
+      {/* <section
+        className={`page-section scrollSpysection ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
         id="blog"
       >
         <Blog />
-      </section>
-      <section
+      </section> */}
+      {/* <section
         className={`page-section ${
           dark
-            ? " bg-dark-2 bg-dark-alpha-90 light-content"
+            ? "bg-dark-2 bg-dark-alpha-90 light-content"
             : "bg-gray-light-1 bg-light-alpha-90"
-        }   bg-scroll`}
+        }`}
         style={{
           backgroundImage: "url(/assets/images/demo-slick/section-bg-1.jpg)",
         }}
       >
         <Newsletter />
-      </section>
+      </section> */}
       <section
-        className={`page-section overflow-hidden   ${
+        className={`page-section overflow-hidden ${
           dark ? "bg-dark-2 light-content" : ""
         }`}
       >
@@ -410,14 +238,11 @@ export default function Home({ onePage = false, dark = false }) {
       <section
         className="page-section bg-scroll light-content"
         style={{
-          backgroundImage: "url(/assets/images/demo-gradient/section-bg-3.jpg)",
+          backgroundImage: "url(/assets/images/process.png)",
         }}
       >
         <div className="bg-overlay bg-gradient-dark-alpha-2 d-none d-md-block" />
-        {/* End Desktop Overlay */}
-        {/* Mobile Overlay */}
         <div className="bg-overlay bg-dark-1 opacity-09 d-md-none" />
-        {/* End Mobile Overlay */}
         <div className="container position-relative">
           <div className="row wow fadeInUp">
             <div className="col-md-7 offset-md-5 col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
@@ -425,75 +250,16 @@ export default function Home({ onePage = false, dark = false }) {
                 Design Jumpstart for Your Business
               </h2>
               <p className="mb-50 mb-sm-40">
-                Praesent venenatis justo in ultrices tempor. Donec maximus,
-                dolor a condimentum congue, tellus nisi dictum magna, uttere
-                lorem ipsum viverra massa ex sit amet nulla. Duis lobortis nisl
-                sed aliquam sollicitudin.
+                Ready to make an impact with AI? We provide solutions that
+                elevate your business strategies.
               </p>
-              <div className="local-scroll mb-70 mb-sm-50">
-                {onePage ? (
-                  <>
-                    {" "}
-                    <a
-                      href="#contact"
-                      className="btn btn-mod btn-medium btn-grad btn-round"
-                      data-btn-animate="y"
-                    >
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">
-                          Contact us
-                          <i
-                            className="mi-arrow-right size-24 align-center"
-                            aria-hidden="true"
-                          ></i>
-                        </span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          Contact us
-                          <i
-                            className="mi-arrow-right size-24 align-center"
-                            aria-hidden="true"
-                          ></i>
-                        </span>
-                      </span>
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    <Link
-                      href={`/gradient-portfolio${dark ? "-dark" : ""}`}
-                      className="btn btn-mod btn-medium btn-grad btn-round"
-                      data-btn-animate="y"
-                    >
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">
-                          See all Works
-                          <i
-                            className="mi-arrow-right size-24 align-center"
-                            aria-hidden="true"
-                          ></i>
-                        </span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          See all Works
-                          <i
-                            className="mi-arrow-right size-24 align-center"
-                            aria-hidden="true"
-                          ></i>
-                        </span>
-                      </span>
-                    </Link>
-                  </>
-                )}
-              </div>
-              {/* Features List */}
               <Cta3 />
-              {/* End Features List */}
             </div>
           </div>
         </div>
       </section>
       <section
-        className={`page-section  scrollSpysection   ${
+        className={`page-section scrollSpysection ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
         id="contact"
@@ -503,14 +269,12 @@ export default function Home({ onePage = false, dark = false }) {
             <h2 className="section-caption-gradient mb-20 mb-xs-10">
               Contact Us
             </h2>
-            <div className="section-line-gradient mx-auto mb-20" />
             <h3 className="section-title mb-40 mb-sm-30">
-              Say hello, and we’ll start productive cooperation.
+              Let's start building your AI future together.
             </h3>
             <p className="text-gray mb-80 mb-sm-60">
-              Quisque semper nisl et mi tincidunt, at vulputate nunc tincidunt.
-              Mauris a sapien nulla. Class aptent taciti sociosqu ad litora
-              torquent per conubia nostra, per inceptos himenaeos.
+              Our team is ready to help you innovate and grow with tailored AI
+              solutions.
             </p>
           </div>
         </div>
